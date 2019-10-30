@@ -26,7 +26,7 @@ fs.readdir("./commands/", (err, files) => {
 });
 
 client.on("ready", () => {
-    client.user.setActivity("⛏ teamspeak: hypersurvival.pl ⛏", {type: "WATCHING"})
+    client.user.setActivity("teamspeak: hypersurvival.pl", {type: "WATCHING"})
     client.user.setStatus('dnd', 'Made by .EXE') 
 
     // Alternatively, you can set the activity to any of the following:
